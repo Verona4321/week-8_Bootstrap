@@ -1,0 +1,157 @@
+@font-face {
+    font-weight: 300; /* Соответствует значению medium */
+    font-family: Roboto-Slab;
+    src: url("fonts/static/RobotoSlab-Light.ttf")
+}
+
+@font-face {
+    font-weight: 800; /* Соответствует значению medium */
+    font-family: Roboto-Slab;
+    src: url("fonts/static/RobotoSlab-ExtraBold.ttf")
+}
+
+@font-face {
+    font-weight: 700; /* Соответствует значению bold */
+    font-family: IBM Plex Sans;
+    src: url("fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf");
+}
+
+section {
+    /*margin-left: 80px;*/
+    margin-top: 20px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 60px;
+}
+
+h1 {
+    font-family: IBM Plex Sans;
+    font-size: 2.5em;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+
+
+h2 {
+    font-family: IBM Plex Sans;
+    font-size: 1.5em;
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about {
+    /*display: flex;
+    justify-content: space-between;*/
+    width: 40%;
+    /*margin-left: 80px;*/
+}
+
+footer {
+    font-family: Roboto-Slab;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 80px;
+}
+
+a {
+    text-decoration: none
+}
+
+footer > a {
+    margin-right: 20px;
+}
+
+
+.description {
+    width: 300px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description > img {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.description > p {
+    font-family: Roboto-Slab;
+}
+
+.description > form {
+    margin-top: 40px;
+    background-color: #EC615B;
+    color: white;
+    padding-left: 20px;
+    width: 100%;
+}
+
+form > input {
+    height: 30px;
+    font-family: Roboto-Slab;
+    border: #EC615B;
+}
+
+form > button {
+    margin-top: 18px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 0ch;
+    background-color: #5222D0;
+    color: white;
+    font-family: Roboto-Slab;
+    height: 35px;
+    font-size: 0.7em;
+}
+
+main {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.about > p {
+    font-family: Roboto-Slab;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
+
+}
+
+.about > button {
+    margin-top: 18px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 0ch;
+    background-color: #5222D0;
+    color: white;
+    font-family: Roboto-Slab;
+    height: 60px;
+    width: 150px;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.pic {
+    width: 40%;
+}
+
+.pic > img {
+    width: 100%;  
+    object-fit: cover; 
+}

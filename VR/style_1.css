@@ -1,0 +1,70 @@
+@font-face {
+    font-weight: 300; /* Соответствует значению medium */
+    font-family: Roboto-Slab;
+    src: url("fonts/static/RobotoSlab-Light.ttf")
+}
+
+@font-face {
+    font-weight: 700; /* Соответствует значению bold */
+    font-family: IBM Plex Sans;
+    src: url("fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf");
+}
+
+section {
+    margin: 80px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 60px;
+}
+
+h1 {
+    font-family: IBM Plex Sans;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-family: IBM Plex Sans;
+    font-size: 1.5px;
+}
+
+article {
+    display: grid;
+    
+}
+
+footer {
+    font-family: Roboto-Slab;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 80px;
+}
+
+a {
+    text-decoration: none
+}
+
+footer > a {
+    margin-right: 20px;
+}
+
+section {
+    display: flex;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.description > img {
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover; 
+}
